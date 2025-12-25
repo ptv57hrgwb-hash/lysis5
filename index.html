@@ -1,1 +1,306 @@
 
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lysis — Roots & Good Vibes</title>
+  <meta name="description" content="Lysis : son, mix et accompagnement artistique en mode roots, simple et bonne ambiance." />
+  <meta name="theme-color" content="#1a140f" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Police lisible + vibe organique -->
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <!-- décor -->
+  <div class="bg" aria-hidden="true">
+    <div class="grain"></div>
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="blob b3"></div>
+    <div class="rays"></div>
+  </div>
+
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Aller en haut">
+      <span class="mark" aria-hidden="true"></span>
+      <span class="brand-text">
+        <span class="name">Lysis</span>
+        <span class="tag">roots • simple • ensemble</span>
+      </span>
+    </a>
+
+    <nav class="nav">
+      <a href="#esprit">Esprit</a>
+      <a href="#offres">Offres</a>
+      <a href="#tarifs">Tarifs</a>
+      <a href="#contact" class="btn btn-sm">Contact</a>
+    </nav>
+
+    <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <div class="mobile-nav" hidden>
+    <a href="#esprit">Esprit</a>
+    <a href="#offres">Offres</a>
+    <a href="#tarifs">Tarifs</a>
+    <a href="#contact" class="btn">Contact</a>
+  </div>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="pill">
+            <span class="dot"></span>
+            <span>Ambiance tranquille, résultat propre</span>
+          </div>
+
+          <h1>
+            Du son <span class="highlight">roots</span>,
+            du mix <span class="highlight">chaleureux</span>,
+            zéro pression.
+          </h1>
+
+          <p class="lead">
+            Ici c’est simple : on respecte la musique, on garde le sourire, on avance ensemble.
+            Que tu sois artiste, groupe, ou juste envie de faire sonner ton projet — on est là.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#offres">Voir les offres</a>
+            <a class="btn btn-ghost" href="#contact">Nous écrire</a>
+          </div>
+
+          <div class="mini-stats" aria-label="Infos rapides">
+            <div class="stat">
+              <div class="stat-n">Simple</div>
+              <div class="stat-l">explications claires</div>
+            </div>
+            <div class="stat">
+              <div class="stat-n">Accessible</div>
+              <div class="stat-l">budget raisonnable</div>
+            </div>
+            <div class="stat">
+              <div class="stat-n">Familial</div>
+              <div class="stat-l">bonne vibe</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card reveal" data-reveal-delay="120">
+          <div class="card">
+            <div class="card-top">
+              <div class="sticker">good vibes</div>
+              <div class="meter" aria-hidden="true">
+                <span></span><span></span><span></span><span></span><span></span>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h2 class="card-title">Ce qu’on cherche</h2>
+              <ul class="list">
+                <li>Un son vivant, chaud, qui respire.</li>
+                <li>Des décisions simples, sans jargon.</li>
+                <li>Une séance calme : pas de stress, pas de course.</li>
+              </ul>
+            </div>
+
+            <div class="card-bottom">
+              <div class="note">
+                <span class="note-ico" aria-hidden="true">✦</span>
+                <span>Tu viens comme tu es. On s’occupe du reste.</span>
+              </div>
+              <a href="#contact" class="btn btn-sm btn-outline">Demander un créneau</a>
+            </div>
+          </div>
+
+          <div class="tape" aria-hidden="true"></div>
+        </div>
+      </div>
+
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span>roots</span><span>•</span><span>famille</span><span>•</span><span>bienveillance</span><span>•</span>
+          <span>mix chaleureux</span><span>•</span><span>simple</span><span>•</span><span>accessible</span><span>•</span>
+          <span>roots</span><span>•</span><span>famille</span><span>•</span><span>bienveillance</span><span>•</span>
+          <span>mix chaleureux</span><span>•</span><span>simple</span><span>•</span><span>accessible</span><span>•</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ESPRIT -->
+    <section id="esprit" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Esprit</h2>
+          <p>Un cadre cool, humain, sans pression — mais avec une vraie qualité.</p>
+        </div>
+
+        <div class="grid-3">
+          <article class="panel reveal">
+            <h3>On parle simple</h3>
+            <p>Tu dis ce que tu veux ressentir. Nous, on traduit ça en son, sans te noyer de technique.</p>
+          </article>
+
+          <article class="panel reveal" data-reveal-delay="80">
+            <h3>On prend le temps</h3>
+            <p>Pas de stress. On fait les bons choix, et on garde la vibe du morceau.</p>
+          </article>
+
+          <article class="panel reveal" data-reveal-delay="160">
+            <h3>On fait famille</h3>
+            <p>Accueil, respect, écoute. On avance ensemble, dans un bon esprit.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- OFFRES -->
+    <section id="offres" class="section section-alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Offres</h2>
+          <p>Des formats clairs, pensés pour les artistes. Tu choisis, on s’adapte.</p>
+        </div>
+
+        <div class="cards">
+          <article class="offer reveal">
+            <div class="offer-badge">Le plus demandé</div>
+            <h3>Mix “Warm & Clean”</h3>
+            <p>On garde le caractère, on clarifie, on équilibre. Un mix qui respire et qui colle au morceau.</p>
+            <ul class="bullets">
+              <li>Écoute + direction artistique</li>
+              <li>Propositions simples</li>
+              <li>Allers-retours tranquilles</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary btn-wide">Demander un mix</a>
+          </article>
+
+          <article class="offer reveal" data-reveal-delay="90">
+            <h3>Prise de son (light)</h3>
+            <p>Enregistrement zen : voix, guitare, percu… On capture le bon moment, sans prise de tête.</p>
+            <ul class="bullets">
+              <li>Installation rapide</li>
+              <li>Ambiance détendue</li>
+              <li>Conseils “juste ce qu’il faut”</li>
+            </ul>
+            <a href="#contact" class="btn btn-ghost btn-wide">Réserver une session</a>
+          </article>
+
+          <article class="offer reveal" data-reveal-delay="180">
+            <h3>Coaching / MAO (débutant friendly)</h3>
+            <p>Tu veux avancer chez toi ? On t’aide à structurer, comprendre, et finir tes morceaux.</p>
+            <ul class="bullets">
+              <li>Explications ultra accessibles</li>
+              <li>Objectifs concrets</li>
+              <li>Sans jargon</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline btn-wide">Voir le coaching</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TARIFS -->
+    <section id="tarifs" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Tarifs</h2>
+          <p>On reste cool. On trouve un format qui colle à ton budget.</p>
+        </div>
+
+        <div class="pricing">
+          <div class="price-card reveal">
+            <h3>Petit budget</h3>
+            <p class="price">à partir de <strong>XX€</strong></p>
+            <p class="muted">Pour démarrer, faire propre, sans se ruiner.</p>
+            <a class="btn btn-ghost btn-wide" href="#contact">Dis-moi ton besoin</a>
+          </div>
+
+          <div class="price-card featured reveal" data-reveal-delay="80">
+            <div class="chip">Option tranquille</div>
+            <h3>Standard</h3>
+            <p class="price">à partir de <strong>XX€</strong></p>
+            <p class="muted">Le bon équilibre : qualité + échanges sereins.</p>
+            <a class="btn btn-primary btn-wide" href="#contact">On en parle</a>
+          </div>
+
+          <div class="price-card reveal" data-reveal-delay="160">
+            <h3>Projet complet</h3>
+            <p class="price">sur devis</p>
+            <p class="muted">Mix + prise de son + accompagnement, selon ton projet.</p>
+            <a class="btn btn-outline btn-wide" href="#contact">Demander un devis</a>
+          </div>
+        </div>
+
+        <p class="tiny reveal" data-reveal-delay="220">
+          * Mets tes vrais prix quand tu veux : remplace “XX€” dans le HTML.
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <div class="contact-box reveal">
+          <div>
+            <h2>Contact</h2>
+            <p class="lead">
+              Tu m’expliques ton morceau / ton idée (même en 3 phrases), et je te réponds simplement.
+            </p>
+
+            <div class="contact-actions">
+              <a class="btn btn-primary" href="mailto:lysis.asso.gmail.com?subject=Contact%20Lysis%20%E2%80%94%20Good%20Vibes">
+                Écrire par mail
+              </a>
+              <button class="btn btn-ghost" id="copyMail" type="button">
+                Copier l’adresse
+              </button>
+            </div>
+
+            <div class="copy-hint" id="copyHint" aria-live="polite"></div>
+          </div>
+
+          <div class="contact-side" aria-hidden="true">
+            <div class="stamp">one love</div>
+            <div class="wave">
+              <span></span><span></span><span></span><span></span><span></span>
+            </div>
+            <div class="quote">
+              “On garde la vibe, on fait sonner.”
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-row">
+      <div class="footer-left">
+        <span class="footer-mark" aria-hidden="true"></span>
+        <div>
+          <div class="footer-name">Lysis</div>
+          <div class="footer-muted">roots • simple • ensemble</div>
+        </div>
+      </div>
+
+      <div class="footer-right">
+        <a href="#top">Haut</a>
+        <a href="mailto:lysis.asso.gmail.com">lysis.asso.gmail.com</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
